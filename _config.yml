@@ -1,0 +1,15 @@
+# Jekyll 기본 설정
+title: 나의 블로그
+description: Jekyll로 만든 나만의 블로그입니다.
+url: https://qyeonge.github.io
+baseurl: ""
+
+# 빌드 설정
+markdown: kramdown
+
+# 제외할 파일
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .DS_Store

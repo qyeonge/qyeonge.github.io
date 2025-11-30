@@ -1,6 +1,0 @@
-title: "아영 아카이브"
-description: "Photo · Video · Article & Essay · Daily"
-baseurl: ""   # 개인 페이지라면 그대로 비워두기
-url: "https://qyeonge.github.io"  # 여기만 내 깃헙 주소로 바꾸기
-
-theme: null   # 커스텀 레이아웃 사용할 거라 theme는 쓰지 않음

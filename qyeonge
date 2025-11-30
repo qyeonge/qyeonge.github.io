@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>아영 아카이브</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    :root {
+      --bg:#faf8f5;
+      --fg:#222;
+      --muted:#777;
+      --border:#e5e2dd;
+      --card:#ffffff;
+      --accent:#c88b5a;
+    }
+
+    * { box-sizing:border-box; }
+
+    body {
+      margin:0;
+      font-family:-apple-system,BlinkMacSystemFont,"Noto Sans KR",sans-serif;
+      background:var(--bg);
+      color:var(--fg);
+      line-height:1.7;
+    }
+
+    a { color:var(--accent); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+
+    .page {
+      max-width:960px;
+      margin:0 auto;
+      padding:28px 20px 80px;
+    }
+
+    header {
+      border-bottom:1px solid var(--border);
+      padding-bottom:16px;
+      margin-bottom:36px;
+    }
+
+    .title {
+      font-size:1.9rem;
+      font-weight:600;
+    }
+
+    .subtitle {
+      font-size:0.95rem;
+      color:var(--muted);
+      margin-top:4px;
+    }
+
+    nav {
+      margin-top:14px;
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+    }
+
+    nav a {
+      padding:4px 12px;
+      border-radius:20px;
+      border:1px solid var(--border);
+      font-size:0.85rem;
+      background:rgba(255,255,255,0.4);
+    }
+
+    h2 {
+      font-size:1.3rem;
+      margin-bottom:4px;
+    }
+
+    .section-desc {
+      margin-top:0;
+      color:var(--muted);
+      font-size:0.9rem;
+    }
+
+    .card {
+      background:var(--card);
+      border-radius:16px;
+      border:1px solid var(--border);
+      padding:18px;
+      margin-top:12px;
+    }
+
+    .item {
+      padding:10px 0;
+      border-top:1px dashed var(--border);
+      font-size:0.9rem;
+    }
+
+    .item:first-child {
+      border-top:none;
+    }
+
+    .item-title {
+      font-weight:500;
+    }
+
+    .item-meta {
+      font-size:0.78rem;
+      color:var(--muted);
+    }
+
+    footer {
+      margin-top:60px;
+      text-align:right;
+      font-size:0.75rem;
+      color:var(--muted);
+    }
+
+    @media (min-width:768px) {
+      .two-col {
+        display:grid;
+        grid-template-columns:1.1fr 1fr;
+        gap:16px;
+        align-items:flex-start;
+      }
+    }
+  </style>
+</head>
+
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <header>
+    <div class="title">아영 아카이브</div>
+    <div class="subtitle">
+      Photo · Video · Article &amp; Essay · Daily — 2025년 이전과 이후의 기록들
+    </div>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#photo">Photo</a>
+      <a href="#video">Video</a>
+      <a href="#article">Article &amp; Essay</a>
+      <a href="#daily">Daily</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>About</h2>
+    <p class="section-desc">이 사이트와 기록 방식에 대한 짧은 소개.</p>
+
+    <div class="card two-col">
+      <div>
+        <p>멜버른에서 일하고 있는 베이커.</p>
+        <p>
+          2025년 이전의 에세이, 영화·여행 기록, 사진들과<br>
+          멜버른에서의 생활, 작업, 밤 시간의 장면들을<br>
+          네 가지 축으로 나눠서 쌓아두는 아카이브입니다.
+        </p>
+      </div>
+      <div style="font-size:0.9rem; color:var(--muted);">
+        <p style="margin-top:0;">
+          <strong>구성</strong><br>
+          • <b>Photo</b> — 사진과 시리즈 중심의 기록<br>
+          • <b>Video</b> — 짧은 클립, 영상 로그<br>
+          • <b>Article &amp; Essay</b> — 글 중심 아카이브<br>
+          • <b>Daily</b> — 루틴, 작업 메모, 일상 단편
+        </p>
+        <p style="font-style:italic;">
+          “언젠가 한 번에 다시 읽기 위한, 지금의 감각들.”
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PHOTO -->
+  <section id="photo" style="margin-top:50px;">
+    <h2>Photo</h2>
+    <p class="section-desc">
+      사진 중심의 기록들. 여행, 도시, 작업 공간, 일상 장면들을 시리즈로 모읍니다.
+    </p>
+
+    <div class="card">
+      <!-- 예시 아이템들 — 나중에 링크를 실제 페이지로 연결해도 됨 -->
+      <div class="item">
+        <div class="item-title">Fitzroy 골목 산책 – 밤 작업 끝나고</div>
+        <div class="item-meta">2025 · Melbourne Life · Street / Night</div>
+      </div>
+
+      <div class="item">
+        <div class="item-title">Seoul Film Roll #03</div>
+        <div class="item-meta">2023 · Before 2025 · Film Photo</div>
+      </div>
+
+      <div class="item">
+        <div class="item-title">Bakery Bench – 도우와 손</div>
+        <div class="item-meta">2025 · Melbourne Life · Workbench</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEO -->
+  <section id="video" style="margin-top:50px;">
+    <h2>Video</h2>
+    <p class="section-desc">
+      짧은 영상, 작업 클립, 이동 중에 남긴 순간들을 모으는 공간.
+    </p>
+
+    <div class="card">
+      <div class="item">
+        <div class="item-title">Night Shift Setup – 10초 클립 모음</div>
+        <div class="item-meta">2025 · Melbourne Life · Bakery / Night</div>
+      </div>
+
+      <div class="item">
+        <div class="item-title">Tram에서 본 새벽 빛</div>
+        <div class="item-meta">2025 · Melbourne Life · Commute</div>
+      </div>
+
+      <div class="item">
+        <div class="item-title">2019 Tokyo Walk – 작은 비디오 조각들</div>
+        <div class="item-meta">2019 · Before 2025 · Travel</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ARTICLE & ESSAY -->
+  <section id="article" style="margin-top:50px;">
+    <h2>Article &amp; Essay</h2>
+    <p class="section-desc">
+      조금 더 길고 천천히 쓰는 글들. 에세이, 영화 기록, 여행기 등을 모읍니다.
+    </p>
+
+    <div class="card">
+      <div class="item">
+        <div class="item-title">야간 셋업이 끝난 뒤, 6시의 하늘에 대한 노트</div>
+        <div class="item-meta">2025 · Melbourne Life · Essay</div>
+      </div>
+
+      <div class="item">
+        <div class="item-title">겨울에 본 영화들에 대해 적어둔 것</div>
+        <div class="item-meta">2022 · Before 2025 · Film Log / Essay</div>
+      </div>
+
+      <div class="item">
+        <div class="item-title">돌아오고 싶은 도시와 떠나고 싶은 도시 사이</div>
+        <div class="item-meta">2024 · Before 2025 · Travel / Reflection</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DAILY -->
+  <section id="daily" style="margin-top:50px;">
+    <h2>Daily</h2>
+    <p class="section-desc">
+      짧은 메모, 루틴, 작업 플로우, 그날그날의 감각들을 가볍게 적어두는 로그.
+    </p>
+
+    <div class="card">
+      <div class="item">
+        <div class="item-title">밤 근무 루틴 – 몸이 무너지지 않게</div>
+        <div class="item-meta">2025 · Melbourne Life · Routine</div>
+      </div>
+
+      <div class="item">
+        <div class="item-title">오늘의 생산 플로우에서 배운 것 한 줄</div>
+        <div class="item-meta">2025 · Melbourne Life · Work Note</div>
+      </div>
+
+      <div class="item">
+        <div class="item-title">영화관 대신 집에서 본 영화 한 편 기록</div>
+        <div class="item-meta">2023 · Before 2025 · Daily / Film</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" style="margin-top:50px;">
+    <h2>Contact</h2>
+    <p class="section-desc">언제든지 기록에 대해 이야기할 수 있는 창구.</p>
+
+    <div class="card">
+      <p style="margin:0.2rem 0;">Email: <a href="mailto:hello@example.com">hello@example.com</a></p>
+      <p style="margin:0.2rem 0;">Instagram: <a href="#">@your.instagram</a></p>
+      <p style="margin:0.2rem 0;">기록용 노션 / 블로그: <a href="#">링크 추가 예정</a></p>
+    </div>
+  </section>
+
+  <footer>
+    © <span id="year"></span> Ayoung. All rights reserved.
+  </footer>
+</div>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

@@ -1,20 +1,18 @@
 # qyeonge.github.io
 
-Personal website built with **GitHub Pages** (Jekyll).
+Personal archive & journal  
+based in Melbourne.
 
-## Sections
-- Photo
-- Video
-- Article & Essay
-- Daily
+## Contents
+- 📷 [Photo](./photo)
+- 🎥 [Video](./video)
+- ✍️ [Article & Essay](./article)
+- 🌿 [Daily](./daily)
+
+## About
+This website is a personal archive:
+essays, photos, videos, and daily records  
+before and after living in Melbourne.
 
 ## Visit
-- https://qyeonge.github.io
-
-## Tech
-- GitHub Pages
-- Jekyll
-
-## Contact
-- Instagram: @your_id
-- Email: your@email.com
+👉 https://qyeonge.github.io

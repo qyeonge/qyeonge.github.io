@@ -1,6 +1,6 @@
 ---
 layout: post
 title: "First Post"
-categories: daily
+categories: [daily]
 ---
 Hello.

@@ -1,0 +1,9 @@
+title: qyeonge
+description: personal archive
+theme: minima
+
+header_pages:
+  - photo.md
+  - video.md
+  - article.md
+  - daily.md

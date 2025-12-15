@@ -4,8 +4,4 @@ title: Photo
 permalink: /photo/
 ---
 
-<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px">
-  <img src="/assets/images/2025/melbourne-morning.jpg">
-  <img src="/assets/images/2025/melbourne-evening.jpg">
-  <img src="/assets/images/2024/seoul-night.jpg">
-</div>
+<img src="/assets/images/2025/DO01000262.JPG" alt="Photo archive image" style="max-width:100%; margin:40px auto; display:block;">

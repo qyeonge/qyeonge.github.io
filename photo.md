@@ -4,11 +4,4 @@ title: Photo
 permalink: /photo/
 ---
 
-<ul>
-  {% for post in site.categories.photo %}
-    <li>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      <small> — {{ post.date | date: "%Y-%m-%d" }}</small>
-    </li>
-  {% endfor %}
-</ul>
+<img src="/assets/images/2025/DO01000262.JPG" alt="Photo archive image" style="max-width:100%; margin:40px auto; display:block;">
